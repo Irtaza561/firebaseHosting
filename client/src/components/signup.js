@@ -101,7 +101,7 @@ const SignUp = () =>{
     }
     return(
         <div className='register'>
-            <h1>New User Sign Up</h1>
+            <h1>New User Sign</h1>
             <input className='inputBox' type='text' placeholder='Enter Your Name'
                 value={name} onChange={(e)=>setName(e.target.value)}>
             </input>
