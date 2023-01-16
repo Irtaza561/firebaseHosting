@@ -13,7 +13,7 @@ const Nav = () =>{
     return(
         <div>
             <img className="logo"
-                src="https://yt3.ggpht.com/ytc/AMLnZu907ujnXt1ae1wVUDH8NrYtoLeeI5XCK7OsMU3HCw=s900-c-k-c0x00ffffff-no-rj" 
+                src="./logo192.png"
                 alt="logo">
             </img>        
         {   auth? 
@@ -24,6 +24,10 @@ const Nav = () =>{
                 
             </ul> :
             <ul className="nav-ul nav-right">
+                {/* <li><Link to='/home'>Home</Link></li>
+                <li><Link to='/base'>Base</Link></li>
+                <li><Link to='/order'>Order</Link></li>
+                <li><Link to='/topping'>Topping</Link></li> */}
                 <li className=""><Link to='/login'>LogIn</Link></li>
                 <li className=""><Link to='/admin'>Admin</Link></li>
                 <li className=""><Link to='/signup'>SignUp</Link></li>

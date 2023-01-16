@@ -10,7 +10,7 @@ const Profile = () =>{
     useEffect(()=>{
         getProductsDetail();
         
-   }, [])
+   },[])
 
 
     const getProductsDetail =async () =>{

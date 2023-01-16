@@ -12,7 +12,7 @@ const UpdateProduct = () =>{
 
     useEffect(()=>{
         getProductDetails();
-    }, [])
+    },[])
 
     const getProductDetails =async () =>{
         let result = await fetch(`http://localhost:5000/product/${params.id}`);
